@@ -1,0 +1,80 @@
+* {
+  border: 1px solid black;
+}
+
+.btnGrey {
+  display: inline-block;
+  background-color: #eee;
+  color: #000;
+  padding: 10px 20px;
+  transition: 0.5s;
+  background-color: #bbbbbb;
+}
+.btnGrey.lg {
+  padding: 30px 60px;
+}
+.btnGrey.md {
+  padding: 20px 40px;
+}
+.btnGrey.sm {
+  padding: 10px 20px;
+}
+.btnGrey:hover {
+  background-color: #bbbbbb;
+}
+
+.btnYellow {
+  display: inline-block;
+  background-color: #ffdd38;
+  color: #000;
+  padding: 10px 20px;
+  transition: 0.5s;
+  background-color: #d1ad00;
+}
+.btnYellow.lg {
+  padding: 30px 60px;
+}
+.btnYellow.md {
+  padding: 20px 40px;
+}
+.btnYellow.sm {
+  padding: 10px 20px;
+}
+.btnYellow:hover {
+  background-color: #ffee9e;
+}
+
+.btnBlack {
+  display: inline-block;
+  background-color: #2d2a2a;
+  color: #fff;
+  padding: 10px 20px;
+  transition: 0.5s;
+  background-color: black;
+}
+.btnBlack.lg {
+  padding: 30px 60px;
+}
+.btnBlack.md {
+  padding: 20px 40px;
+}
+.btnBlack.sm {
+  padding: 10px 20px;
+}
+.btnRed {
+  display: inline-block;
+  background-color: #ff5151;
+  color: #000;
+  padding: 10px 20px;
+  transition: 0.5s;
+  background-color: #ea0000;
+}
+.btnRed.lg {
+  padding: 30px 60px;
+}
+.btnRed.md {
+  padding: 20px 40px;
+}
+.btnRed.sm {
+  padding: 10px 20px;
+}

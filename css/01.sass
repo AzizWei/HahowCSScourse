@@ -1,0 +1,41 @@
+*   
+  border: 1px solid black
+
+$colorRed:#ff5151
+$colorYellow:#ffdd38
+$colorBlack:#2d2a2a
+
+$paddingLg:30px
+$paddingMd:20px
+$paddingSm:10px
+
+@mixin button($bgcolor:#eee,$fontcolor:#000)
+    display: inline-block
+    background-color: $bgcolor
+    color: $fontcolor
+    padding: 10px 20px
+    transition: .5s
+    &.lg
+        padding: $paddingLg  $paddingLg*2
+    &.md
+        padding: $paddingMd $paddingMd*2
+    &.sm
+        padding: $paddingSm $paddingSm*2
+    &:hover
+    background-color: darken($bgcolor,20%)
+    
+    
+
+.btnGrey
+    +button
+    &:hover
+        background-color: darken(#eee,20%)
+
+.btnYellow
+    +button($colorYellow)
+    &:hover
+        background-color: lighten($colorYellow,20%)
+.btnBlack
+    +button($colorBlack,#fff)
+.btnRed
+    +button($colorRed)
